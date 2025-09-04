@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+    <header>
+    <h2 class="logo">Hanzala</h2>
+    <nav>
+      <a href="#home" >Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+  </header>
+  <section class="Home" id="home">
+    <img src="hanzala.jpg" class="profile-image">
+    <h1>Hi, I'm <span>Hanzala Rehan</span></h1>
+    <h3>I am a <span id="typing"></span></h3>
+    <p>Hello! My name is Hanzala Rehan. I am a passionate web developer who enjoys 
+    building simple, clean, and responsive websites.</p>
+
+    <p>I focus on writing clean code, designing user-friendly layouts, 
+    and creating websites that work smoothly on all devices.</p>
+   <div class="buttons">
+    <a href="#" class="btn">Hire Me</a>
+    <a href="#" class="btn">Download CV</a>
+   </div>
+  </section>
+  <section class="skills" id="skills">
+    <h1>My Skills</h1>
+    <p>Html</p>
+    <div class="bar">
+      <div class="fill" style="width:90%">
+      </div>
+    </div>
+    <p>CSS</p>
+    <div class="bar">
+      <div class="fill" style="width:90%">
+      </div>
+    </div>
+    <p>Javascript</p>
+    <div class="bar">
+      <div class="fill" style="width:70%">
+      </div>
+    </div>
+    <p>Python</p>
+    <div class="bar">
+      <div class="fill" style="width:80%">
+      </div>
+    </div>
+    <p>Java</p>
+    <div class="bar">
+      <div class="fill" style="width:85%">
+      </div>
+    </div>
+  </section>
+  
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <div class="edu-box">
+      <h3>BS Software Engineering</h3>
+      <p>NUML University, Islamabad [2024-2028]</p>
+    </div>
+    <div class="edu-box">
+      <h3>Intermediate(ICS)</h3>
+      <p>FIC KALLAR KAHAR</p>
+       <p>86%</p>
+    </div>
+    <div class="edu-box">
+      <h3>Matriculation(Science) </h3>
+      <p>FIC KALLAR KAHAR</p>
+      <p>93%</p>
+    </div>
+
+  </section>
+   <section class="projects" id="projects">
+    <h2>My Projects</h2>
+  
+
+    <div class="project-container">
+        
+      <div class="project-card">
+        <img src="welfare.jpg" alt="Welfare App">
+        <h3>Welfare App 🙋</h3>
+        <a href="https://hanzala957.github.io/Welfare/" target="_blank">View Project</a>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="logo.png" alt="My Clothing App">
+        <h3>Clothing App 🛍️</h3>
+        <a href="https://hanzala957.github.io/Clothing-Store/" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="cars.jpg" alt="Cars App">
+        <h3>Cars App 🚗</h3>
+        <a href="https://hanzala957.github.io/CAR/" target="_blank">View Project</a>
+      </div>
+
+     
+  
+
+    </div>
+  </section>
+  <section class="contact"  id="Contact" >
+        <h2>Contact Me📞</h2>
+        <p>If you have any project in mind or just want to say hi, feel free to contact me 👇</p>
+        <form id="contactform">
+        <input type="text"  id="name" placeholder="Your Name" required>
+        <input type="text"  id="Email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button id="submit">Send Message</button>
+          </form>
+        <p id="status"></p>
+        
+  </section>
+ 
+    
+</body>
+</html>
